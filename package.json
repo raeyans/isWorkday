@@ -1,0 +1,38 @@
+{
+  "name": "@username/is-working",
+  "version": "0.1.0",
+  "description": "Library to help you identify current datetime is still working datetime. You can custom your date whitelist, then you can also set open and close time of working hour.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Raymond Sihotang",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raeyans/isWorkday.git"
+  },
+  "keywords": [
+    "working-day",
+    "work-day",
+    "workday",
+    "isworkday",
+    "is-work-day",
+    "isworkingday",
+    "is-working-day"
+  ],
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "bugs": {
+    "url": "https://github.com/raeyans/isWorkday/issues"
+  },
+  "homepage": "https://github.com/raeyans/isWorkday#readme"
+}
